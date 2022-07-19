@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1 {
+    margin-bottom: 0.8rem;
+    color: #fff;
+}
+
+/* ######################################### winner span #################################### */
+.container .winner {
+    margin-bottom: 0.8rem;
+    background: aqua;
+    width: 250px;
+    height: 50px;
+    border-radius: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* over-writing display property */
+    display: none;
+}
+
+/* ######################### end of winner span ######################################### */
+
+.container .box {
+    width: 312px;
+    height: 312px;
+    background: #4479CB;
+}
+
+.container .box .common-row {
+    display: flex;
+}
+
+.common-box {
+    width: 100px;
+    height: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-size: 2rem;
+    background: black;
+    color: #fff;
+    transition: all 3s linear infinite;
+}
+
+.common-box:hover {
+    box-shadow: 0 0 5px #fff;
+    cursor: pointer;
+}
+
+.add {
+    background: green;
+}
+
+/* ########################################## buttons ################################################## */
+.common-button {
+    padding: 0.5rem;
+    margin-top: 0.8rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+/*#################################### button-selection ######################## */
+.selected_button {
+    background: rgb(40, 117, 241);
+    color: #fff;
+    font-weight: bold;
+}
+
+/* ############################################## footer ##################################################### */
+.container footer {
+    width: 100%;
+    height: 50px;
+    background: rgb(40, 117, 241);
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container footer a {
+    text-decoration: none;
+    color: #fff;
+}
