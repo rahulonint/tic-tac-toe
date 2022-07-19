@@ -1,2 +1,2 @@
 # tic-tac-toe
-Tic Tac Toe Game
+Tic Tac Toe using HTML, CSS and JavaScript
