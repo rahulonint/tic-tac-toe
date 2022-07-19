@@ -92,8 +92,6 @@ footer {
     height: 5vh;
     background: rgb(40, 117, 241);
     color: #fff;
-    position: absolute;
-    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
